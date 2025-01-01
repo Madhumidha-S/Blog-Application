@@ -1,0 +1,21 @@
+/* MAIN */
+body {
+  margin: 0%;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  background-color: #4e31aa;
+  color: rgb(235, 222, 255);
+}
+
+h2,
+h3 {
+  display: inline-block;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-left: auto;
+}

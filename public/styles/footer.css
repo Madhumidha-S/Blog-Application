@@ -1,0 +1,8 @@
+.container {
+  background-color: #4e31aa;
+}
+
+p {
+  display: inline-block;
+  justify-content: space-around;
+}
