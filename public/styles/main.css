@@ -1,19 +1,25 @@
 body {
+  background-color: #4e31aa;
+}
+
+.mainContainer {
   background-color: #fffefa;
+  padding: 68px 0px;
 }
 
 h1 {
   text-align: center;
   margin: auto;
-  font-size: 4.4rem;
+  font-size: 4.7rem;
   width: 70%;
-  padding-top: 200px;
+  padding: 115px 0px 50px 0px;
 }
 
 .btn {
   display: flex;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 20px;
+  margin-bottom: 83px;
   border: none;
   border-radius: 5px;
   background-color: #4e31aa;
