@@ -1,3 +1,7 @@
+body {
+  margin: 0%;
+}
+
 .addBtn {
   border: none;
   border-radius: 5px;
@@ -12,4 +16,12 @@
   font-weight: 900;
   margin: 20px 30px;
   font-size: 1.6rem;
+}
+
+.containerB {
+  height: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 30px 10px 0;
 }
