@@ -1,19 +1,20 @@
 body {
   margin: 0%;
+  background-color: #101517;
 }
 
 .addBtn {
-  border: none;
+  border: solid;
   border-radius: 5px;
-  background-color: #4e31aa;
+  background-color: #101517;
   padding: 12px 22px;
   color: white;
   font-size: 1.1rem;
 }
 
 .title {
-  color: #0b0b0b;
-  font-weight: 900;
+  color: #ffffff;
+  font-weight: 600;
   margin: 20px 30px;
   font-size: 1.6rem;
 }
