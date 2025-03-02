@@ -9,12 +9,12 @@
 </head>
 <body>
     <h2 class="title">New Blog</h2>
-    <div class="containerN">
-        <form action="">
-            <input class="blogName" type="text">
-            <textarea class="blogField" name="" id=""></textarea>
-            <button class="postBTN">Post</button>
-        </form>
+    <div class="container">
+        <form action="/blog/new" method="POST"> 
+            <input type="text" name="title" placeholder="Blog Title" required>
+            <textarea name="content" placeholder="Write your blog here..." required></textarea>
+            <button type="submit">Post</button>
+        </form>        
     </div>
 </body>
 </html>

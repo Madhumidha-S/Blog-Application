@@ -10,10 +10,19 @@
 <body>
     <div class="containerB">
         <h2 class="title">All Blogs</h2>
-        <form action="/blog/new" method="POST">
+        <form action="/blog" method="GET">
             <button class="addBtn">Add +</button>
-        </form>
+        </form>        
+
+        <div class="blogs">
+            <% blogs.forEach(blog => { %>
+                <div class="blog-box">
+                    <pre><%= blog %></pre>
+                </div>
+            <% }); %>
+        </div>
     </div>
 </body>
+
 </html>
 <%- include('./partials/footer.ejs') %>
